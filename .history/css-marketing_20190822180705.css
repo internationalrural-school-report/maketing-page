@@ -56,21 +56,12 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h3, h4, h5 {
-    font-size: 1.2rem;
-    margin-bottom: 15px;
-    font-family: 'Nunito', sans-serif ; 
-}
-h2 {
-    font-size: 2.2rem;
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Nunito', sans-serif ; 
 }
 
 p {
     line-height: 1.4;
-}
-
-footer {
-    text-align: center;
 }
