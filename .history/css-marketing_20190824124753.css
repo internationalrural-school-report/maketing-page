@@ -69,8 +69,7 @@ h2 {
     font-family: 'Nunito', sans-serif ; 
     padding-left: 1rem;
     padding-right: 1rem;
-    text-align: center;
-    margin: auto;
+    text-align: center
 }
 
 p {
@@ -78,13 +77,12 @@ p {
     padding-bottom: 0.3rem;
     padding-top: 0.3rem;
     text-align: center;
-    margin: auto;
 }
 
 img {
     padding-left: 1rem;
     padding-right: 1rem;
-    border-radius: 100%;
+    border-radius: 90%;
     max-width: 12rem;
     height: auto;
     align-items: center;
@@ -97,20 +95,23 @@ img {
     padding-right: 1rem;
 }
 .left-partner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     border: .1rem solid black;
     border-radius: 2rem;
     width : 48%;
 }
 .logo-box {
+    width: 100%;
     display: flex;
-    align-items: center;
     flex-flow: row wrap;
-    justify-content: center;
-    width: 100%;   
+    position: relative;
 }
 .logos {
-    margin: 0.5rem;
+
+    flex: 0 1 22%;
 }
 .right-partner {
     margin: 0.3rem;
@@ -123,7 +124,7 @@ img {
 .testimonials {
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
     background: lightgray;
     padding-top: 3rem;
     padding-left: 3rem;

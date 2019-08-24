@@ -69,8 +69,7 @@ h2 {
     font-family: 'Nunito', sans-serif ; 
     padding-left: 1rem;
     padding-right: 1rem;
-    text-align: center;
-    margin: auto;
+    text-align: center
 }
 
 p {
@@ -78,13 +77,12 @@ p {
     padding-bottom: 0.3rem;
     padding-top: 0.3rem;
     text-align: center;
-    margin: auto;
 }
 
 img {
     padding-left: 1rem;
     padding-right: 1rem;
-    border-radius: 100%;
+    border-radius: 90%;
     max-width: 12rem;
     height: auto;
     align-items: center;
