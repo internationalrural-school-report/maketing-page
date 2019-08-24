@@ -97,7 +97,6 @@ img {
 .left-partner {
     position: relative;
     border: .1rem solid black;
-    border-radius: 2rem;
     width : 48%;
 }
 .logos {

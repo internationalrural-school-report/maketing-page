@@ -97,14 +97,13 @@ img {
 .left-partner {
     position: relative;
     border: .1rem solid black;
-    border-radius: 2rem;
     width : 48%;
 }
 .logos {
     flex: 0 22%;
 }
 .right-partner {
-    margin: 0.3rem;
+    margin: 1rem;
     padding : 2rem;
     width: 48%;
     background: rgb(255, 223, 78);
