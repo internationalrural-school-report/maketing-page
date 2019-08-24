@@ -79,8 +79,6 @@ p {
 img {
     padding-left: 1rem;
     padding-right: 1rem;
-    max-width: 10rem;
-    height: auto;
 }
 
 .partners {
@@ -127,12 +125,11 @@ img {
 }
 
 .footer {
-    text-align: center;
+    display: flex;
     padding-bottom: 2rem;
     padding-top: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    background: rgb(255, 223, 78);
 
     
 }

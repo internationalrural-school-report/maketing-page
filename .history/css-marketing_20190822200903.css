@@ -54,7 +54,8 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 h1, h3, h4, h5 {
@@ -79,15 +80,11 @@ p {
 img {
     padding-left: 1rem;
     padding-right: 1rem;
-    max-width: 10rem;
-    height: auto;
 }
 
 .partners {
     display: flex;
     flex-wrap: row wrap;
-    padding-left: 3rem;
-    padding-right: 3rem;
 }
 .left-partner {
     border: .1rem solid black;
@@ -100,8 +97,6 @@ img {
 .testimonials {
     margin-top: 3rem;
     background: lightgray;
-    padding-left: 3rem;
-    padding-right: 3rem;
     
 }
 .first-testimonial {
@@ -127,17 +122,9 @@ img {
 }
 
 .footer {
-    text-align: center;
+    display: flex;
+    flex-wrap: row wrap;
+    margin: auto;
     padding-bottom: 2rem;
     padding-top: 2rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    background: rgb(255, 223, 78);
-
-    
-}
-
-a {
-    padding-left: 1rem;
-    padding-right: 1rem;
 }

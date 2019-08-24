@@ -54,7 +54,6 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    
 }
 
 h1, h3, h4, h5 {
@@ -66,78 +65,12 @@ h2 {
     font-size: 2.2rem;
     margin-bottom: 15px;
     font-family: 'Nunito', sans-serif ; 
-    padding-left: 1rem;
-    padding-right: 1rem;
 }
 
 p {
     line-height: 1.4;
-    padding-bottom: 0.3rem;
-    padding-top: 0.3rem;
 }
 
-img {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    max-width: 10rem;
-    height: auto;
-}
-
-.partners {
-    display: flex;
-    flex-wrap: row wrap;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-.left-partner {
-    border: .1rem solid black;
-    width : 48%;
-}
-.right-partner {
-    border: .1rem solid black;
-    width: 48%;
-}
-.testimonials {
-    margin-top: 3rem;
-    background: lightgray;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    
-}
-.first-testimonial {
-    display: flex;
-    flex-wrap: row wrap;
-    padding-bottom: 0.3rem;
-    padding-top: 0.3rem;
-}
-
-.second-testimonial {
-    display: flex;
-    flex-wrap: row wrap;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-
-}
-
-.third-testimonial {
-    display: flex;
-    flex-wrap: row wrap;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-}
-
-.footer {
-    text-align: center;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    background: rgb(255, 223, 78);
-
-    
-}
-
-a {
-    padding-left: 1rem;
-    padding-right: 1rem;
+footer {
+    align-content: center;
 }
