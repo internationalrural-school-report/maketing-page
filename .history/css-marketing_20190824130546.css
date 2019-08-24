@@ -101,7 +101,7 @@ img {
     position: relative;
     border: .1rem solid black;
     border-radius: 2rem;
-    margin-right: 0.6rem;
+    margin-right: 0.3rem;
     width : 49%;
 }
 .logo-box {
@@ -121,9 +121,7 @@ img {
     background: rgb(255, 223, 78);
     border-radius: 2rem;
 }
-.right-h2 {
-    padding-bottom: 2rem;
-}
+
 .testimonials {
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;

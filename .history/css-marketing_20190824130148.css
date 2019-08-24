@@ -92,7 +92,7 @@ img {
 
 .partners {
     display: flex;
-    
+    flex-wrap: row wrap;
     margin-top: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -101,7 +101,6 @@ img {
     position: relative;
     border: .1rem solid black;
     border-radius: 2rem;
-    margin-right: 0.6rem;
     width : 49%;
 }
 .logo-box {
@@ -115,15 +114,13 @@ img {
     margin: 0.5rem;
 }
 .right-partner {
-    margin-left: 0.3rem;
-    padding-top: 2rem;
+    margin: 0.3rem;
+    padding : 2rem;
     width: 49%;
     background: rgb(255, 223, 78);
     border-radius: 2rem;
 }
-.right-h2 {
-    padding-bottom: 2rem;
-}
+
 .testimonials {
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
