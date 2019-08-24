@@ -99,7 +99,8 @@ img {
 }
 .left-partner {
     position: relative;
-    background: lightskyblue;
+    border: .1rem solid black;
+    background: lightslategray;
     border-radius: 2rem;
     margin-right: 0.6rem;
     width : 49%;
