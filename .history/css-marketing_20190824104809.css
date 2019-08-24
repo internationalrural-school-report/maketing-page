@@ -53,14 +53,13 @@ table {
 
 html, body {
     height: 100%;
-    width: 100%; 
     font-family: 'Roboto', sans-serif;
     
 }
 
 h1, h3, h4, h5 {
     font-size: 1.2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 15px;
     font-family: 'Nunito', sans-serif ; 
 }
 h2 {
@@ -88,8 +87,8 @@ img {
 .partners {
     display: flex;
     flex-wrap: row wrap;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 .left-partner {
     border: .1rem solid black;
@@ -97,7 +96,7 @@ img {
 }
 .right-partner {
     margin: 1rem;
-    padding : 2rem;
+    padding-left: 2rem;
     width: 48%;
     background: rgb(255, 223, 78);
     border-radius: 2rem;
