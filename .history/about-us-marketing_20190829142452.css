@@ -54,7 +54,8 @@ table {
 }
 
 /* CSS STARTS HERE */
-
+/* CSS STARTS HERE */
+/* CSS STARTS HERE */
 
 .container {
   width: 100%;
@@ -63,7 +64,8 @@ table {
 }
 
 /* HEADER/NAV CSS STARTS HERE */
-
+/* HEADER/NAV CSS STARTS HERE */
+/* HEADER/NAV CSS STARTS HERE */
 
 header {
   width: 100%;
@@ -250,22 +252,22 @@ header .img-logo {
   border: 0.5px solid green;
 }
 
-/* TEAM STATEMENT/INTRO CSS STARTS HERE */
+/* MISSION CSS STARTS HERE */
+/* MISSION CSS STARTS HERE */
+/* MISSION CSS STARTS HERE */
 
-
-.team-container {
+.mission-container {
   width: 100%;
   height: 100vh;
-  margin-top: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.team-text {
-  width: 85%;
-  height: 100%;
+.mission-txt {
+  width: 70%;
+  height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -277,62 +279,91 @@ h1 {
   text-align: center;
 }
 
-.team-text p {
+.mission-txt p {
   font-family: "Karla", sans-serif;
   font-size: 2rem;
   text-align: center;
   line-height: 50px;
 }
 
-h2 {
-    font-size: 2.2rem;
-    margin-bottom: 15px;
-    font-family: 'Nunito', sans-serif ; 
-    padding-left: 1rem;
-    padding-right: 1rem;
-    text-align: center;
-    margin: auto;
-  }
-  
-  p {
-    line-height: 1.4;
-    padding-bottom: 0.3rem;
-    padding-top: 0.3rem;
-    text-align: center;
-    margin: auto;
-  }
-  
-  img {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-radius: 100%;
-    max-width: 12rem;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-  }
-.team-members {
 
-  border-top: .1rem dashed black;
+
+.computer {
+  width: 25%;
+}
+
+.tablet {
+  width: 25%;
+}
+
+.laptop {
+  width: 25%;
+}
+
+.router {
+  width: 25%;
+}
+
+
+
+img {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 100%;
+  max-width: 12rem;
+  height: auto;
+  align-items: center;
+}
+
+.partners {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+  
+  
+}
+.left-partner {
+  position: relative;
+  background: lightskyblue;
+  width : 50%;
+}
+.logo-box {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;   
+}
+.logos {
+  margin: 0.5rem;
+}
+.right-partner {
+  
+  padding-top: 2rem;
+  width: 50%;
+  background: rgb(255, 223, 78);
+}
+.right-h2 {
+  padding-bottom: 2rem;
+}
+.testimonials {
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
   margin-top: 2rem;
   background: lightgray;
   padding-top: 3rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  align-items: center;
   
 }
-.member {
-    align-items: center;
-}
-.first-member {
+.first-testimonial {
   display: flex;
   flex-wrap: row wrap;
   padding-bottom: 0.3rem;
   padding-top: 0.3rem;
 }
 
-.second-member {
+.second-testimonial {
   display: flex;
   flex-wrap: row wrap;
   padding-bottom: 2rem;
@@ -340,22 +371,12 @@ h2 {
 
 }
 
-.third-member {
+.third-testimonial {
   display: flex;
   flex-wrap: row wrap;
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
-
-.fourth-member {
-    display: flex;
-    flex-wrap: row wrap;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-  }
-
-
-/* FOOTER CSS STARTS HERE */
 
 .footer {
   text-align: center;
@@ -377,16 +398,10 @@ a {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .footer {
         display: none;
     }
-}
-@media (max-width: 680px) {
-    .team-members p {
-        display: none;
-    }
-    
 }
 
 @media (max-width: 500px) {
@@ -404,7 +419,7 @@ a {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    
+    /* position: unset; */
   }
 
   .nav-wrapper {
@@ -565,9 +580,9 @@ a {
   }
 
   .header-button-mobile {
-    padding-top: 4rem;
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     width: 20%;
   }
 
@@ -583,7 +598,9 @@ a {
   }
 
   /* CTA CSS STARTS HERE */
-  
+  /* CTA CSS STARTS HERE */
+  /* CTA CSS STARTS HERE */
+  /* CTA CSS STARTS HERE */
 
   .cta-container {
     background-color: white;
@@ -647,7 +664,7 @@ a {
     font-size: 1.5rem;
   }
 
-  .team-container {
+  .mission-container {
     width: 100%;
     height: 75vh;
     display: flex;
@@ -656,7 +673,7 @@ a {
     align-items: center;
   }
 
-  .team-text {
+  .mission-txt {
     width: 90%;
     height: 100%;
     display: flex;
@@ -670,32 +687,95 @@ a {
     text-align: center;
   }
 
-  .team-text p {
+  .mission-txt p {
     font-family: "Karla", sans-serif;
     font-size: 1.3rem;
     text-align: center;
     line-height: 50px;
   }
 
-  .second-member {
-      direction: rtl;
+  /* MAKE A DIFFERNCE CSS STARTS HERE */
+  /* MAKE A DIFFERNCE CSS STARTS HERE */
+  /* MAKE A DIFFERNCE CSS STARTS HERE */
+  /* MAKE A DIFFERNCE CSS STARTS HERE */
+
+  .make-diff-container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0px;
+    margin: 0;
+    background-image: url("../img/child-hand-paint.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
-  .member {
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
+  .color-overlay2 {
+    width: 100%;
+    height: 100%;
+    background: red;
+    opacity: 0.93;
+    position: absolute;
+    z-index: 1;
   }
 
-  .team-members p {
+  .make-diff-txt {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .make-diff-container h1 {
     display: none;
-}
-.team-members :nth-child(2){
-    flex-flow: column-reverse;
-}
-.team-members :last-child {
-    flex-flow: column-reverse;
-}
+  }
+
+  .difference-box-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-evenly;
+  }
+
+  .difference-box {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .computer {
+    width: 25%;
+  }
+
+  .tablet {
+    width: 25%;
+  }
+
+  .laptop {
+    width: 25%;
+  }
+
+  .router {
+    width: 25%;
+  }
   
 }
 

@@ -54,7 +54,8 @@ table {
 }
 
 /* CSS STARTS HERE */
-
+/* CSS STARTS HERE */
+/* CSS STARTS HERE */
 
 .container {
   width: 100%;
@@ -63,7 +64,8 @@ table {
 }
 
 /* HEADER/NAV CSS STARTS HERE */
-
+/* HEADER/NAV CSS STARTS HERE */
+/* HEADER/NAV CSS STARTS HERE */
 
 header {
   width: 100%;
@@ -111,7 +113,6 @@ nav {
   color: black;
   font-size: 20px;
   text-decoration: none;
-  text-align: center;
   margin: 0 22px;
   display: flex;
   padding: 10px;
@@ -186,9 +187,9 @@ header .img-logo {
   position: relative;
   bottom: 0px;
   margin: 0;
-  background-image: url("Images/lambda-2.png");
+  background-image: url("../Images/child-hand-paint.jpg");
   background-position: 50% 50%;
-  background-size: contain ;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -236,7 +237,7 @@ header .img-logo {
 
 .cta-txt-container button {
   padding: 10px 22px;
-  width: 9rem;
+  width: 15%;
   border-radius: 5px;
   text-align: center;
   background-color: red;
@@ -250,22 +251,22 @@ header .img-logo {
   border: 0.5px solid green;
 }
 
-/* TEAM STATEMENT/INTRO CSS STARTS HERE */
+/* MISSION CSS STARTS HERE */
+/* MISSION CSS STARTS HERE */
+/* MISSION CSS STARTS HERE */
 
-
-.team-container {
+.mission-container {
   width: 100%;
   height: 100vh;
-  margin-top: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.team-text {
-  width: 85%;
-  height: 100%;
+.mission-txt {
+  width: 70%;
+  height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -277,62 +278,275 @@ h1 {
   text-align: center;
 }
 
-.team-text p {
+.mission-txt p {
   font-family: "Karla", sans-serif;
   font-size: 2rem;
   text-align: center;
   line-height: 50px;
 }
 
-h2 {
-    font-size: 2.2rem;
-    margin-bottom: 15px;
-    font-family: 'Nunito', sans-serif ; 
-    padding-left: 1rem;
-    padding-right: 1rem;
-    text-align: center;
-    margin: auto;
-  }
-  
-  p {
-    line-height: 1.4;
-    padding-bottom: 0.3rem;
-    padding-top: 0.3rem;
-    text-align: center;
-    margin: auto;
-  }
-  
-  img {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-radius: 100%;
-    max-width: 12rem;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-  }
-.team-members {
+/* MAKE A DIFFERENCE CSS STARTS HERE */
+/* MAKE A DIFFERENCE CSS STARTS HERE */
+/* MAKE A DIFFERENCE CSS STARTS HERE */
 
-  border-top: .1rem dashed black;
+.make-diff-container {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  margin: 0;
+  background-image: url("../img/child-hand-paint.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.color-overlay2 {
+  width: 100%;
+  height: 100%;
+  background: red;
+  opacity: 0.93;
+  position: absolute;
+  z-index: 1;
+}
+
+.make-diff-txt {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.make-diff-container h1 {
+  font-size: 2.5rem;
+  font-family: "Karla", sans-serif;
+  color: white;
+}
+
+.difference-box-container {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.difference-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.computer {
+  width: 25%;
+}
+
+.tablet {
+  width: 25%;
+}
+
+.laptop {
+  width: 25%;
+}
+
+.router {
+  width: 25%;
+}
+
+/* DONATER STATS CSS STARTS HERE */
+/* DONATER STATS CSS STARTS HERE */
+/* DONATER STATS CSS STARTS HERE */
+
+.donate-container {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.donate {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  margin: 0;
+  background-image: url("../img/child-hand-paint.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.box1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+.color-overlay3 {
+  width: 50%;
+  height: 100%;
+  background: red;
+  opacity: 0.93;
+  position: absolute;
+  z-index: 1;
+}
+
+.thanks-txt {
+  font-family: "Karla", sans-serif;
+  font-size: 1.5rem;
+  width: 90%;
+  z-index: 2;
+}
+
+.results-txt {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  font-family: "Karla", sans-serif;
+  text-align-last: center;
+  z-index: 2;
+}
+
+.box2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.color-overlay4 {
+  width: 50%;
+  height: 100%;
+  background: orange;
+  opacity: 0.93;
+  position: absolute;
+  z-index: 1;
+}
+
+.ips-icon {
+  width: 10%;
+  z-index: 2;
+}
+
+.kin-icon {
+  width: 25%;
+  z-index: 2;
+}
+
+.cs-icon {
+  width: 25%;
+  z-index: 2;
+}
+
+.uws-icon {
+  width: 25%;
+  z-index: 2;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  font-family: 'Nunito', sans-serif ; 
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  margin: auto;
+}
+
+p {
+  line-height: 1.4;
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
+  text-align: center;
+  margin: auto;
+}
+
+img {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 100%;
+  max-width: 12rem;
+  height: auto;
+  align-items: center;
+}
+
+.partners {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+  
+  
+}
+.left-partner {
+  position: relative;
+  background: lightskyblue;
+  width : 50%;
+}
+.logo-box {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;   
+}
+.logos {
+  margin: 0.5rem;
+}
+.right-partner {
+  
+  padding-top: 2rem;
+  width: 50%;
+  background: rgb(255, 223, 78);
+}
+.right-h2 {
+  padding-bottom: 2rem;
+}
+.testimonials {
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
   margin-top: 2rem;
   background: lightgray;
   padding-top: 3rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  align-items: center;
   
 }
-.member {
-    align-items: center;
-}
-.first-member {
+.first-testimonial {
   display: flex;
   flex-wrap: row wrap;
   padding-bottom: 0.3rem;
   padding-top: 0.3rem;
 }
 
-.second-member {
+.second-testimonial {
   display: flex;
   flex-wrap: row wrap;
   padding-bottom: 2rem;
@@ -340,62 +554,35 @@ h2 {
 
 }
 
-.third-member {
+.third-testimonial {
   display: flex;
   flex-wrap: row wrap;
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
-
-.fourth-member {
-    display: flex;
-    flex-wrap: row wrap;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-  }
-
-
-/* FOOTER CSS STARTS HERE */
 
 .footer {
   text-align: center;
-  padding-bottom: 1.5rem;
-  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
   padding-left: 3rem;
   padding-right: 3rem;
   background: rgb(255, 223, 78);
+
+  
 }
-.footer a {
-    text-decoration: none;
-    color: black;
-}
-.footer-logo{
-    width: 2rem;
-    height: auto;
-}
+
 a {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-@media (max-width: 1000px) {
-    .footer {
-        display: none;
-    }
-}
-@media (max-width: 680px) {
-    .team-members p {
-        display: none;
-    }
-    
-}
+
 
 @media (max-width: 500px) {
   .container {
     width: 100%;
   }
-  .footer {
-    display: none;
-}
+
   /* @media HEADER/NAV CSS HERE */
 
   .container header {
@@ -404,7 +591,7 @@ a {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    
+    /* position: unset; */
   }
 
   .nav-wrapper {
@@ -417,9 +604,6 @@ a {
     background: red;
     opacity: 0;
     transition: all 0.2s ease;
-  }
-  .header-logo {
-      height: 3rem;
   }
 
   .nav-wrapper ul {
@@ -565,9 +749,9 @@ a {
   }
 
   .header-button-mobile {
-    padding-top: 4rem;
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     width: 20%;
   }
 
@@ -583,7 +767,9 @@ a {
   }
 
   /* CTA CSS STARTS HERE */
-  
+  /* CTA CSS STARTS HERE */
+  /* CTA CSS STARTS HERE */
+  /* CTA CSS STARTS HERE */
 
   .cta-container {
     background-color: white;
@@ -592,13 +778,13 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     position: relative;
     bottom: 0px;
     margin: 0;
-    background-image: url("Images/lambda-shield.png");
+    background-image: url("../img/child-hand-paint.jpg");
     background-position: 50% 50%;
-    background-size: contain ;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -647,7 +833,7 @@ a {
     font-size: 1.5rem;
   }
 
-  .team-container {
+  .mission-container {
     width: 100%;
     height: 75vh;
     display: flex;
@@ -656,7 +842,7 @@ a {
     align-items: center;
   }
 
-  .team-text {
+  .mission-txt {
     width: 90%;
     height: 100%;
     display: flex;
@@ -670,32 +856,94 @@ a {
     text-align: center;
   }
 
-  .team-text p {
+  .mission-txt p {
     font-family: "Karla", sans-serif;
     font-size: 1.3rem;
     text-align: center;
     line-height: 50px;
   }
 
-  .second-member {
-      direction: rtl;
+  /* MAKE A DIFFERNCE CSS STARTS HERE */
+  /* MAKE A DIFFERNCE CSS STARTS HERE */
+  /* MAKE A DIFFERNCE CSS STARTS HERE */
+  /* MAKE A DIFFERNCE CSS STARTS HERE */
+
+  .make-diff-container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0px;
+    margin: 0;
+    background-image: url("../img/child-hand-paint.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
-  .member {
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
+  .color-overlay2 {
+    width: 100%;
+    height: 100%;
+    background: red;
+    opacity: 0.93;
+    position: absolute;
+    z-index: 1;
   }
 
-  .team-members p {
+  .make-diff-txt {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .make-diff-container h1 {
     display: none;
-}
-.team-members :nth-child(2){
-    flex-flow: column-reverse;
-}
-.team-members :last-child {
-    flex-flow: column-reverse;
-}
-  
+  }
+
+  .difference-box-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-evenly;
+  }
+
+  .difference-box {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .computer {
+    width: 25%;
+  }
+
+  .tablet {
+    width: 25%;
+  }
+
+  .laptop {
+    width: 25%;
+  }
+
+  .router {
+    width: 25%;
+  }
 }
 

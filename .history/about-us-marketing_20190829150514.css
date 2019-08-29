@@ -54,7 +54,8 @@ table {
 }
 
 /* CSS STARTS HERE */
-
+/* CSS STARTS HERE */
+/* CSS STARTS HERE */
 
 .container {
   width: 100%;
@@ -63,7 +64,8 @@ table {
 }
 
 /* HEADER/NAV CSS STARTS HERE */
-
+/* HEADER/NAV CSS STARTS HERE */
+/* HEADER/NAV CSS STARTS HERE */
 
 header {
   width: 100%;
@@ -250,10 +252,11 @@ header .img-logo {
   border: 0.5px solid green;
 }
 
-/* TEAM STATEMENT/INTRO CSS STARTS HERE */
+/* MISSION CSS STARTS HERE */
+/* MISSION CSS STARTS HERE */
+/* MISSION CSS STARTS HERE */
 
-
-.team-container {
+.mission-container {
   width: 100%;
   height: 100vh;
   margin-top: 3rem;
@@ -263,9 +266,9 @@ header .img-logo {
   align-items: center;
 }
 
-.team-text {
-  width: 85%;
-  height: 100%;
+.mission-txt {
+  width: 70%;
+  height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -277,12 +280,32 @@ h1 {
   text-align: center;
 }
 
-.team-text p {
+.mission-txt p {
   font-family: "Karla", sans-serif;
   font-size: 2rem;
   text-align: center;
   line-height: 50px;
 }
+
+
+
+.computer {
+  width: 25%;
+}
+
+.tablet {
+  width: 25%;
+}
+
+.laptop {
+  width: 25%;
+}
+
+.router {
+  width: 25%;
+}
+
+
 
 h2 {
     font-size: 2.2rem;
@@ -309,21 +332,17 @@ h2 {
     max-width: 12rem;
     height: auto;
     align-items: center;
-    justify-content: center;
   }
-.team-members {
+.testimonials {
 
+  
   border-top: .1rem dashed black;
   margin-top: 2rem;
   background: lightgray;
   padding-top: 3rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  align-items: center;
   
-}
-.member {
-    align-items: center;
 }
 .first-member {
   display: flex;
@@ -347,16 +366,6 @@ h2 {
   padding-top: 2rem;
 }
 
-.fourth-member {
-    display: flex;
-    flex-wrap: row wrap;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-  }
-
-
-/* FOOTER CSS STARTS HERE */
-
 .footer {
   text-align: center;
   padding-bottom: 1.5rem;
@@ -377,13 +386,8 @@ a {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .footer {
-        display: none;
-    }
-}
-@media (max-width: 680px) {
-    .team-members p {
         display: none;
     }
     
@@ -404,7 +408,7 @@ a {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    
+    /* position: unset; */
   }
 
   .nav-wrapper {
@@ -565,9 +569,9 @@ a {
   }
 
   .header-button-mobile {
-    padding-top: 4rem;
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     width: 20%;
   }
 
@@ -583,7 +587,9 @@ a {
   }
 
   /* CTA CSS STARTS HERE */
-  
+  /* CTA CSS STARTS HERE */
+  /* CTA CSS STARTS HERE */
+  /* CTA CSS STARTS HERE */
 
   .cta-container {
     background-color: white;
@@ -647,7 +653,7 @@ a {
     font-size: 1.5rem;
   }
 
-  .team-container {
+  .mission-container {
     width: 100%;
     height: 75vh;
     display: flex;
@@ -656,7 +662,7 @@ a {
     align-items: center;
   }
 
-  .team-text {
+  .mission-txt {
     width: 90%;
     height: 100%;
     display: flex;
@@ -670,7 +676,7 @@ a {
     text-align: center;
   }
 
-  .team-text p {
+  .mission-txt p {
     font-family: "Karla", sans-serif;
     font-size: 1.3rem;
     text-align: center;
@@ -687,15 +693,25 @@ a {
       text-align: center;
   }
 
-  .team-members p {
+  .testimonials p {
     display: none;
 }
-.team-members :nth-child(2){
-    flex-flow: column-reverse;
-}
-.team-members :last-child {
-    flex-flow: column-reverse;
-}
+
+  .computer {
+    width: 25%;
+  }
+
+  .tablet {
+    width: 25%;
+  }
+
+  .laptop {
+    width: 25%;
+  }
+
+  .router {
+    width: 25%;
+  }
   
 }
 

@@ -63,7 +63,8 @@ table {
 }
 
 /* HEADER/NAV CSS STARTS HERE */
-
+/* HEADER/NAV CSS STARTS HERE */
+/* HEADER/NAV CSS STARTS HERE */
 
 header {
   width: 100%;
@@ -284,6 +285,24 @@ h1 {
   line-height: 50px;
 }
 
+.computer {
+  width: 25%;
+}
+
+.tablet {
+  width: 25%;
+}
+
+.laptop {
+  width: 25%;
+}
+
+.router {
+  width: 25%;
+}
+
+
+
 h2 {
     font-size: 2.2rem;
     margin-bottom: 15px;
@@ -352,10 +371,8 @@ h2 {
     flex-wrap: row wrap;
     padding-bottom: 2rem;
     padding-top: 2rem;
+  
   }
-
-
-/* FOOTER CSS STARTS HERE */
 
 .footer {
   text-align: center;
@@ -382,10 +399,8 @@ a {
         display: none;
     }
 }
-@media (max-width: 680px) {
-    .team-members p {
-        display: none;
-    }
+@media (max-width: 800px) {
+    
     
 }
 
@@ -696,6 +711,22 @@ a {
 .team-members :last-child {
     flex-flow: column-reverse;
 }
+
+  .computer {
+    width: 25%;
+  }
+
+  .tablet {
+    width: 25%;
+  }
+
+  .laptop {
+    width: 25%;
+  }
+
+  .router {
+    width: 25%;
+  }
   
 }
 

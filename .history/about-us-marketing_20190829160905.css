@@ -382,10 +382,8 @@ a {
         display: none;
     }
 }
-@media (max-width: 680px) {
-    .team-members p {
-        display: none;
-    }
+@media (max-width: 800px) {
+    
     
 }
 
