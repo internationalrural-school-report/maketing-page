@@ -1741,11 +1741,11 @@ footer {
     text-align: center;
     height: 30%;
     align-items: center;
-    width: 60%;
+    width: 80%;
   }
 
   .profile-img {
-    width: 30%;
+    width: 20%;
     border-radius: 100%;
     margin: 10px;
   }
