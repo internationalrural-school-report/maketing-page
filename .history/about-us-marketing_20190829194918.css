@@ -2,86 +2,12 @@
   License: none (public domain)
 */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
+html, body, div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,
+address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,
+strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,
+form,label,legend,table,caption,tbody,tfoot,thead,
+tr,th,td,article,aside,canvas,details,embed,figure,
+figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,
 video {
   margin: 0;
   padding: 0;
@@ -129,6 +55,7 @@ table {
 
 /* CSS STARTS HERE */
 
+
 .container {
   width: 100%;
   height: 100%;
@@ -136,6 +63,7 @@ table {
 }
 
 /* HEADER/NAV CSS STARTS HERE */
+
 
 header {
   width: 100%;
@@ -180,7 +108,7 @@ nav {
 }
 
 .nav-wrapper a {
-  color: white;
+  color: black;
   font-size: 20px;
   text-decoration: none;
   text-align: center;
@@ -225,9 +153,9 @@ header .img-logo {
 }
 
 .header-button button {
-  padding: 0.5rem 3rem;
+  padding: .5rem 3rem;
   width: 10rem;
-  border-radius: 35px;
+  border-radius: 5px;
   text-align: center;
   background-color: red;
   color: white;
@@ -243,20 +171,8 @@ header .img-logo {
   display: none;
 }
 
-.login-button {
-  width: 100%;
-}
-
-.login-button:hover {
-  border: none;
-}
-
-.header-button button:hover {
-  background-color: green;
-  border: 0.5px solid green;
-}
-
 /* CTA CSS STARTS HERE */
+
 
 .cta-container {
   background-color: white;
@@ -271,7 +187,7 @@ header .img-logo {
   margin: 0;
   background-image: url("Images/lambda-2.png");
   background-position: 50% 50%;
-  background-size: contain;
+  background-size: contain ;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -301,7 +217,7 @@ header .img-logo {
   color: white;
   align-items: center;
   justify-content: center;
-  height: 30%;
+  height: 50%;
   width: 65%;
 }
 
@@ -312,16 +228,15 @@ header .img-logo {
 }
 
 .cta-txt2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
   font-family: "Karla", sans-serif;
 }
 
 .cta-txt-container button {
-  margin: 2rem;
-  padding: 1.5rem;
-  height: 5rem;
+  padding: 10px 22px;
   width: 9rem;
-  border-radius: 35px;
+  border-radius: 5px;
   text-align: center;
   background-color: red;
   color: white;
@@ -336,9 +251,10 @@ header .img-logo {
 
 /* TEAM STATEMENT/INTRO CSS STARTS HERE */
 
+
 .team-container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
@@ -368,43 +284,45 @@ h1 {
 }
 
 h2 {
-  font-size: 2.2rem;
-  margin-bottom: 15px;
-  font-family: "Nunito", sans-serif;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  text-align: center;
-  margin: auto;
-}
-
-p {
-  line-height: 1.4;
-  padding-bottom: 0.3rem;
-  padding-top: 0.3rem;
-  text-align: center;
-  margin: auto;
-}
-
-img {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border-radius: 100%;
-  max-width: 12rem;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-}
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    font-family: 'Nunito', sans-serif ; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    margin: auto;
+  }
+  
+  p {
+    line-height: 1.4;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+    text-align: center;
+    margin: auto;
+  }
+  
+  img {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 100%;
+    max-width: 12rem;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
 .team-members {
-  border-top: 0.1rem dashed black;
+
+  border-top: .1rem dashed black;
   margin-top: 2rem;
   background: lightgray;
   padding-top: 3rem;
   padding-left: 3rem;
   padding-right: 3rem;
   align-items: center;
+  
 }
 .member {
-  align-items: center;
+    align-items: center;
 }
 .first-member {
   display: flex;
@@ -418,6 +336,7 @@ img {
   flex-wrap: row wrap;
   padding-bottom: 2rem;
   padding-top: 2rem;
+
 }
 
 .third-member {
@@ -428,11 +347,12 @@ img {
 }
 
 .fourth-member {
-  display: flex;
-  flex-wrap: row wrap;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
-}
+    display: flex;
+    flex-wrap: row wrap;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
 
 /* FOOTER CSS STARTS HERE */
 
@@ -442,29 +362,30 @@ img {
   padding-top: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  background: #ffd400;
+  background: rgb(255, 223, 78);
 }
 .footer a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
-.footer-logo {
-  width: 2rem;
-  height: auto;
+.footer-logo{
+    width: 2rem;
+    height: auto;
 }
 a {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 @media (max-width: 1000px) {
-  .footer {
-    display: none;
-  }
+    .footer {
+        display: none;
+    }
 }
 @media (max-width: 680px) {
-  .team-members p {
-    display: none;
-  }
+    .team-members p {
+        display: none;
+    }
+    
 }
 
 @media (max-width: 500px) {
@@ -473,7 +394,7 @@ a {
   }
   .footer {
     display: none;
-  }
+}
   /* @media HEADER/NAV CSS HERE */
 
   .container header {
@@ -482,6 +403,7 @@ a {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    
   }
 
   .nav-wrapper {
@@ -496,7 +418,7 @@ a {
     transition: all 0.2s ease;
   }
   .header-logo {
-    height: 3rem;
+      height: 3rem;
   }
 
   .nav-wrapper ul {
@@ -660,6 +582,7 @@ a {
   }
 
   /* CTA CSS STARTS HERE */
+  
 
   .cta-container {
     background-color: white;
@@ -674,7 +597,7 @@ a {
     margin: 0;
     background-image: url("Images/lambda-shield.png");
     background-position: 50% 50%;
-    background-size: contain;
+    background-size: contain ;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -715,7 +638,6 @@ a {
   .cta-txt-container button {
     padding: 10px 22px;
     width: 45%;
-    height: auto;
     border-radius: 5px;
     text-align: center;
     background-color: red;
@@ -726,7 +648,7 @@ a {
 
   .team-container {
     width: 100%;
-    height: 75%;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -755,22 +677,24 @@ a {
   }
 
   .second-member {
-    direction: rtl;
+      direction: rtl;
   }
 
   .member {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
   }
 
   .team-members p {
     display: none;
-  }
-  .team-members :nth-child(2) {
-    flex-flow: column-reverse;
-  }
-  .team-members :last-child {
-    flex-flow: column-reverse;
-  }
 }
+.team-members :nth-child(2){
+    flex-flow: column-reverse;
+}
+.team-members :last-child {
+    flex-flow: column-reverse;
+}
+  
+}
+
