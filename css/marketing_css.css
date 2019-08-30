@@ -1485,7 +1485,7 @@ footer {
     margin: 0;
     background-image: url("../img/child-hand-paint.jpg");
     background-position: 50% 50%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
