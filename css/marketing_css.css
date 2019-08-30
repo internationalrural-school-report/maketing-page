@@ -1753,7 +1753,7 @@ footer {
   .profile-txt {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 40%;
     height: 100%;
     justify-content: center;
   }
