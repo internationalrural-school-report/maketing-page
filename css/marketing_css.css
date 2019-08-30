@@ -1815,6 +1815,7 @@ footer {
     font-family: "karla", sans-serif;
     font-size: 0.9rem;
     color: white;
+    padding: 10px 0;
   }
 
   .footer-icon {
