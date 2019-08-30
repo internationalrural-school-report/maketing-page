@@ -217,7 +217,7 @@ header .img-logo {
   color: white;
   align-items: center;
   justify-content: center;
-  height: 30%;
+  height: 50%;
   width: 65%;
 }
 
@@ -228,17 +228,19 @@ header .img-logo {
 }
 
 .cta-txt2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
   font-family: "Karla", sans-serif;
 }
 
 .cta-txt-container button {
   margin: 2rem;
-  padding: 1.5rem;
+  padding: 1rem;
   width: 9rem;
   height: 5rem;
   border-radius: 5px;
   text-align: center;
+  align-content: center
   background-color: red;
   color: white;
   border: 0.5px solid red;
