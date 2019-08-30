@@ -1445,6 +1445,7 @@ footer {
     top: 70%;
     transform: translateY(-50%);
     width: 100%;
+    left: 25%;
   }
 
   .header-button-mobile button {
