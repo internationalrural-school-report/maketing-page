@@ -113,6 +113,7 @@ nav {
   color: black;
   font-size: 20px;
   text-decoration: none;
+  text-align: center;
   margin: 0 22px;
   display: flex;
   padding: 10px;
@@ -154,8 +155,8 @@ header .img-logo {
 }
 
 .header-button button {
-  padding: 10px 22px;
-  width: 50%;
+  padding: .5rem 3rem;
+  width: 10rem;
   border-radius: 5px;
   text-align: center;
   background-color: red;
@@ -187,9 +188,9 @@ header .img-logo {
   position: relative;
   bottom: 0px;
   margin: 0;
-  background-image: url("../Images/child-hand-paint.jpg");
+  background-image: url("Images/lambda-2.png");
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: contain ;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -285,73 +286,7 @@ h1 {
   line-height: 50px;
 }
 
-/* MAKE A DIFFERENCE CSS STARTS HERE */
-/* MAKE A DIFFERENCE CSS STARTS HERE */
-/* MAKE A DIFFERENCE CSS STARTS HERE */
 
-.make-diff-container {
-  width: 100%;
-  height: 40vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
-  width: 100%;
-  position: relative;
-  bottom: 0px;
-  margin: 0;
-  background-image: url("../img/child-hand-paint.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.color-overlay2 {
-  width: 100%;
-  height: 100%;
-  background: red;
-  opacity: 0.93;
-  position: absolute;
-  z-index: 1;
-}
-
-.make-diff-txt {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  z-index: 2;
-}
-
-.make-diff-container h1 {
-  font-size: 2.5rem;
-  font-family: "Karla", sans-serif;
-  color: white;
-}
-
-.difference-box-container {
-  width: 100%;
-  height: 75%;
-  display: flex;
-  flex-direction: row;
-  color: white;
-}
-
-.difference-box {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-content: center;
-  align-items: center;
-  font-family: "Karla", sans-serif;
-  text-align: center;
-  font-size: 1.3rem;
-}
 
 .computer {
   width: 25%;
@@ -369,125 +304,7 @@ h1 {
   width: 25%;
 }
 
-/* DONATER STATS CSS STARTS HERE */
-/* DONATER STATS CSS STARTS HERE */
-/* DONATER STATS CSS STARTS HERE */
 
-.donate-container {
-  width: 100%;
-  height: 25vh;
-  display: flex;
-  flex-direction: row;
-}
-
-.donate {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  position: relative;
-  bottom: 0px;
-  margin: 0;
-  background-image: url("../img/child-hand-paint.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.box1 {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  color: white;
-}
-
-.color-overlay3 {
-  width: 50%;
-  height: 100%;
-  background: red;
-  opacity: 0.93;
-  position: absolute;
-  z-index: 1;
-}
-
-.thanks-txt {
-  font-family: "Karla", sans-serif;
-  font-size: 1.5rem;
-  width: 90%;
-  z-index: 2;
-}
-
-.results-txt {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  font-size: 1.5rem;
-  font-family: "Karla", sans-serif;
-  text-align-last: center;
-  z-index: 2;
-}
-
-.box2 {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.color-overlay4 {
-  width: 50%;
-  height: 100%;
-  background: orange;
-  opacity: 0.93;
-  position: absolute;
-  z-index: 1;
-}
-
-.ips-icon {
-  width: 10%;
-  z-index: 2;
-}
-
-.kin-icon {
-  width: 25%;
-  z-index: 2;
-}
-
-.cs-icon {
-  width: 25%;
-  z-index: 2;
-}
-
-.uws-icon {
-  width: 25%;
-  z-index: 2;
-}
-
-h2 {
-  font-size: 2.2rem;
-  margin-bottom: 15px;
-  font-family: 'Nunito', sans-serif ; 
-  padding-left: 1rem;
-  padding-right: 1rem;
-  text-align: center;
-  margin: auto;
-}
-
-p {
-  line-height: 1.4;
-  padding-bottom: 0.3rem;
-  padding-top: 0.3rem;
-  text-align: center;
-  margin: auto;
-}
 
 img {
   padding-left: 1rem;
@@ -563,15 +380,20 @@ img {
 
 .footer {
   text-align: center;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
   background: rgb(255, 223, 78);
-
-  
 }
-
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+.footer-logo{
+    width: 2rem;
+    height: auto;
+}
 a {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -604,6 +426,9 @@ a {
     background: red;
     opacity: 0;
     transition: all 0.2s ease;
+  }
+  .header-logo {
+      height: 3rem;
   }
 
   .nav-wrapper ul {
@@ -778,13 +603,13 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     position: relative;
     bottom: 0px;
     margin: 0;
-    background-image: url("../img/child-hand-paint.jpg");
+    background-image: url("Images/lambda-shield.png");
     background-position: 50% 50%;
-    background-size: cover;
+    background-size: contain ;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -945,5 +770,8 @@ a {
   .router {
     width: 25%;
   }
+  .footer {
+    display: none;
+}
 }
 

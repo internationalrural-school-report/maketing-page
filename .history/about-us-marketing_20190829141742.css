@@ -113,6 +113,7 @@ nav {
   color: black;
   font-size: 20px;
   text-decoration: none;
+  text-align: center;
   margin: 0 22px;
   display: flex;
   padding: 10px;
@@ -154,8 +155,8 @@ header .img-logo {
 }
 
 .header-button button {
-  padding: 10px 22px;
-  width: 50%;
+  padding: .5rem 3rem;
+  width: 10rem;
   border-radius: 5px;
   text-align: center;
   background-color: red;
@@ -187,9 +188,9 @@ header .img-logo {
   position: relative;
   bottom: 0px;
   margin: 0;
-  background-image: url("../Images/child-hand-paint.jpg");
+  background-image: url("Images/lambda-2.png");
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: contain ;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -568,10 +569,11 @@ img {
   padding-left: 3rem;
   padding-right: 3rem;
   background: rgb(255, 223, 78);
-
-  
 }
-
+.footer-logo{
+    width: 2rem;
+    height: auto;
+}
 a {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -604,6 +606,9 @@ a {
     background: red;
     opacity: 0;
     transition: all 0.2s ease;
+  }
+  .header-logo {
+      height: 3rem;
   }
 
   .nav-wrapper ul {
@@ -778,13 +783,13 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     position: relative;
     bottom: 0px;
     margin: 0;
-    background-image: url("../img/child-hand-paint.jpg");
+    background-image: url("Images/lambda-shield.png");
     background-position: 50% 50%;
-    background-size: cover;
+    background-size: contain ;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
