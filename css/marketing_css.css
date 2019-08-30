@@ -252,6 +252,14 @@ header .img-logo {
   font-size: 1rem;
 }
 
+.login-button {
+  width: 100%;
+}
+
+.login-button:hover {
+  border: none;
+}
+
 .header-button button:hover {
   background-color: green;
   border: 0.5px solid green;
@@ -806,7 +814,7 @@ footer {
   }
 
   .header-button button:hover {
-    display: none;
+    border: none;
   }
 
   .hidden {
@@ -894,7 +902,7 @@ footer {
   }
 
   .cta-txt-container button:hover {
-    display: none;
+    border: none;
   }
 
   /* @media TABLET MISSION CSS STARTS HERE, @media TABLET MISSION CSS STARTS HERE, @media TABLET MISSION CSS STARTS HERE */
@@ -1266,6 +1274,7 @@ footer {
     height: 100%;
     z-index: -1;
     background: red;
+    display: none;
     opacity: 0;
     transition: all 0.2s ease;
   }
@@ -1380,6 +1389,7 @@ footer {
   #nav:checked ~ .nav-wrapper {
     z-index: 9990;
     opacity: 1;
+    display: block;
   }
 
   #nav:checked ~ .nav-wrapper ul li a {
