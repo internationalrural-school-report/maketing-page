@@ -283,6 +283,9 @@ header .img-logo {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.cta-background {
   width: 100%;
   height: 100vh;
   position: relative;
@@ -298,9 +301,10 @@ header .img-logo {
 .color-overlay1 {
   width: 100%;
   height: 100%;
-  background: #000;
+  background: black;
   opacity: 0.6;
   position: absolute;
+  z-index: 11;
 }
 
 .cta1 {
@@ -310,6 +314,8 @@ header .img-logo {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 12;
+  position: absolute;
 }
 
 .cta-txt-container1 {
@@ -837,6 +843,9 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .cta-background {
     width: 100%;
     height: 100vh;
     position: relative;
@@ -852,9 +861,10 @@ footer {
   .color-overlay1 {
     width: 100%;
     height: 100%;
-    background: #000;
+    background: black;
     opacity: 0.6;
     position: absolute;
+    z-index: 11;
   }
 
   .cta1 {
@@ -864,6 +874,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 12;
+    position: absolute;
   }
 
   .cta-txt-container1 {
@@ -1463,25 +1475,39 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .cta-background {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     position: relative;
     bottom: 0px;
     margin: 0;
     background-image: url("../img/child-hand-paint.jpg");
     background-position: 50% 50%;
-    background-size: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
 
-  .cta1 {
+  .color-overlay1 {
     width: 100%;
     height: 100%;
+    background: black;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 11;
+  }
+
+  .cta1 {
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 12;
+    position: absolute;
   }
 
   .cta-txt-container1 {
